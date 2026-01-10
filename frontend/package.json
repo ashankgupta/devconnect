@@ -1,0 +1,26 @@
+{
+  "name": "devconnect-frontend",
+  "version": "1.0.0",
+  "description": "Frontend for DevConnect platform",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "^13.5.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "axios": "^1.5.0",
+    "jwt-decode": "^3.1.2",
+    "socket.io-client": "^4.7.2",
+    "react-google-login": "^5.2.2"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.21",
+    "eslint": "^8.48.0",
+    "eslint-config-next": "^13.4.19"
+  }
+}
